@@ -1,0 +1,15 @@
+# ไปติดตั้ง Docker ก่อน
+version: '3'
+
+service:
+  react:
+    container_name; react
+    build: .
+    volumes:
+      - "./src:/app/src"
+      - "./public/assets:/app/pulic/assets"
+      - "/app/node_modues"
+    port:
+      - 3000:3000
+    stdin_open: true
+    command: nmp start
