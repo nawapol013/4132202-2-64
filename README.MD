@@ -12,4 +12,3 @@
 > git clone https://github.com/nawapol013/4132202-2-64-SEC02.git
 
 ** link **
-[LAB1] (https://github.com/montira28/4132202-2-64-SEC02/tree/master/4132202-2-64LAB1)
